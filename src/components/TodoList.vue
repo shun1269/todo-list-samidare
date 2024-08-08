@@ -6,8 +6,7 @@ interface Task {
 }
 
 const tasks = ref<Task[]>([
-    { taskName: '買い物'},
-    { taskName: '掃除'}
+
 ])
 const newTaskName = ref('')
 
